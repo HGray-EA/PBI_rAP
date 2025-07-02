@@ -1,0 +1,290 @@
+{
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU03\",\"version\":\"5.34\",\"type\":2},\"customTheme\":{\"name\":\"Accessible_Defra_Theme8246045597209863.json\",\"version\":\"5.51\",\"type\":1}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Accessible_Defra_Theme8246045597209863.json",
+            "path": "Accessible_Defra_Theme8246045597209863.json",
+            "type": 201
+          },
+          {
+            "name": "EA_Logo_Accessible_Green5701014120268884.jpg",
+            "path": "EA_Logo_Accessible_Green5701014120268884.jpg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY22SU03",
+            "path": "BaseThemes/CY22SU03.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Introduction",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0c024b43516f261c1e69\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.3518048004996,\"y\":9.302351989325913,\"z\":1750,\"width\":229.07041773715062,\"height\":87.20954989993044,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"EA_Logo_Accessible_Green5701014120268884.jpg\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 87.21,
+          "width": 229.07,
+          "x": 1045.35,
+          "y": 9.30,
+          "z": 1750.00
+        },
+        {
+          "config": "{\"name\":\"1887544a8aa90d09cc4a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.934131736526947,\"y\":607.9041916167665,\"z\":2000,\"width\":998.8023952095809,\"height\":112.09580838323353,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Report Use Guidance \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Power BI is a powerful business analytics solution that connects to multiple datasets.  Power BI reports are highly interactive and allow the consumer to interact with the data and visualisation to provide insights to the corporate data.\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 112.10,
+          "width": 998.80,
+          "x": 12.93,
+          "y": 607.90,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2242fb9092904a5b9921\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1053.4913627911599,\"y\":511.6293594129253,\"z\":11000,\"width\":210.4657137584988,\"height\":96.51190188925636,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Official\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 96.51,
+          "width": 210.47,
+          "x": 1053.49,
+          "y": 511.63,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"45d61c9b2910b3689600\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.934131736526947,\"y\":182.51497005988026,\"z\":3000,\"width\":998.8023952095809,\"height\":409.5808383233533,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Background \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"This dashboard is to demonstrate the role of PowerBI software in producing analysis that aligns with the principles of Reproducible Analytical Pipelines\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Source Data and Parameters\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Source and parameters go here.\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Governance Channel \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"The name of the Governance group who have agreed this report is the correct approach and who to contract regarding its use\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Further Help\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"harry.gray@environment-agency.gov.uk\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 409.58,
+          "width": 998.80,
+          "x": 12.93,
+          "y": 182.51,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"58ca78443a28bf47d424\",\"layouts\":[{\"id\":0,\"position\":{\"height\":720.3915171288744,\"width\":240.1305057096248,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":11002}}],\"singleVisual\":{\"visualType\":\"basicShape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"line\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"7D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"f15c4f2d23f2339f837d\"}",
+          "filters": "[]",
+          "height": 720.39,
+          "width": 240.13,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"861ac7c13786307bb300\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1047.677392797831,\"y\":382.5592255610282,\"z\":10000,\"width\":219.76806574782472,\"height\":73.25602191594157,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Working\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 73.26,
+          "width": 219.77,
+          "x": 1047.68,
+          "y": 382.56,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"91cbdbbfac27a79304d2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1067.4448907751487,\"y\":101.16307788391931,\"z\":5000,\"width\":206.9773317625016,\"height\":101.16307788391931,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Last Refreshed.Last Refreshed\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Last Refreshed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Last Refreshed\"},\"Name\":\"Last Refreshed.Last Refreshed\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}],\"values\":[{\"properties\":{\"backColorPrimary\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"backColorSecondary\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"fontColorSecondary\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"fontColorPrimary\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 101.16,
+          "width": 206.98,
+          "x": 1067.44,
+          "y": 101.16,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"9222aa5e441d28b82968\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.497005988023952,\"y\":0,\"z\":4000,\"width\":1000.2395209580839,\"height\":202.63473053892216,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"low code rAP example\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"32pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 202.63,
+          "width": 1000.24,
+          "x": 11.50,
+          "y": 0.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"ba6545712844cde72d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.3518048004996,\"y\":461.6292174702985,\"z\":8000,\"width\":229.07041773715062,\"height\":50.00014194262679,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Classification\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 229.07,
+          "x": 1045.35,
+          "y": 461.63,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"c57c1ef4401886049312\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.3518048004996,\"y\":332.5590836184014,\"z\":7000,\"width\":229.07041773715062,\"height\":50.00014194262679,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Report Status\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 229.07,
+          "x": 1045.35,
+          "y": 332.56,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"da3401ba9448371c283c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1047.677392797831,\"y\":202.32615576783863,\"z\":6000,\"width\":226.74482973981915,\"height\":50.00014194262679,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Author\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 226.74,
+          "x": 1047.68,
+          "y": 202.33,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"f15c4f2d23f2339f837d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1039.5378348071708,\"y\":0,\"z\":1500,\"width\":240.69835772380802,\"height\":720.9322791727583,\"tabOrder\":10000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 720.93,
+          "width": 240.70,
+          "x": 1039.54,
+          "y": 0.00,
+          "z": 1500.00
+        },
+        {
+          "config": "{\"name\":\"fd0354c894902a8a42a4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1047.677392797831,\"y\":252.3262977104654,\"z\":9000,\"width\":219.76806574782472,\"height\":73.25602191594157,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Harry Gray\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 73.26,
+          "width": 219.77,
+          "x": 1047.68,
+          "y": 252.33,
+          "z": 9000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Report Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection14bb2137a83425ca0366",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"013307291bce1bb090f9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1039.301642276192,\"y\":0,\"z\":0,\"width\":240.69835772380802,\"height\":720.9322791727583,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 720.93,
+          "width": 240.70,
+          "x": 1039.30,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"393f4be823c78fd6cbe3\",\"layouts\":[{\"id\":0,\"position\":{\"height\":720.3915171288744,\"width\":240.1305057096248,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"basicShape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"line\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"7D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"013307291bce1bb090f9\"}",
+          "filters": "[]",
+          "height": 720.39,
+          "width": 240.13,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3ee026caba8a07ed9797\",\"layouts\":[{\"id\":0,\"position\":{\"x\":41,\"y\":124,\"z\":3001,\"width\":446,\"height\":545,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Y\":[{\"queryRef\":\"Big_River_Watch_API_Call.latitude\"}],\"X\":[{\"queryRef\":\"Big_River_Watch_API_Call.longitude\"}],\"Series\":[{\"queryRef\":\"Big_River_Watch_API_Call.pollution_algal\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"Big_River_Watch_API_Call\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"latitude\"},\"Name\":\"Big_River_Watch_API_Call.latitude\",\"NativeReferenceName\":\"latitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"longitude\"},\"Name\":\"Big_River_Watch_API_Call.longitude\",\"NativeReferenceName\":\"longitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"pollution_algal\"},\"Name\":\"Big_River_Watch_API_Call.pollution_algal\",\"NativeReferenceName\":\"pollution_algal\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 545.00,
+          "width": 446.00,
+          "x": 41.00,
+          "y": 124.00,
+          "z": 3001.00
+        },
+        {
+          "config": "{\"name\":\"48d35273a467f70f5d8a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.3518048004996,\"y\":9.302351989325913,\"z\":3000,\"width\":229.07041773715062,\"height\":87.20954989993044,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"EA_Logo_Accessible_Green5701014120268884.jpg\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 87.21,
+          "width": 229.07,
+          "x": 1045.35,
+          "y": 9.30,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"4cf8282abd75566532c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1070,\"y\":136,\"z\":1000,\"width\":164,\"height\":136,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Put your report controls here\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 136.00,
+          "width": 164.00,
+          "x": 1070.00,
+          "y": 136.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Duplicate of Report Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c7b4c8a3c032ec69d0dd",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0ab183dbd6da5a196a9e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":29,\"y\":28,\"z\":5000,\"width\":933,\"height\":56,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Quality Control Engine room\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 56.00,
+          "width": 933.00,
+          "x": 29.00,
+          "y": 28.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"22d4ce92376ecca37a27\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1070,\"y\":136,\"z\":1000,\"width\":164,\"height\":136,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Put your report controls here\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 136.00,
+          "width": 164.00,
+          "x": 1070.00,
+          "y": 136.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"48102f8cc4ed7bd6aecb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.3518048004996,\"y\":9.302351989325913,\"z\":3000,\"width\":229.07041773715062,\"height\":87.20954989993044,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"EA_Logo_Accessible_Green5701014120268884.jpg\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 87.21,
+          "width": 229.07,
+          "x": 1045.35,
+          "y": 9.30,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"4fe8bbdb28e2b340396b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":29,\"y\":9,\"z\":500,\"width\":992,\"height\":127,\"tabOrder\":3002}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 127.00,
+          "width": 992.00,
+          "x": 29.00,
+          "y": 9.00,
+          "z": 500.00
+        },
+        {
+          "config": "{\"name\":\"9b1eaba07b0cce82056e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1039.301642276192,\"y\":0,\"z\":0,\"width\":240.69835772380802,\"height\":720.9322791727583,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 720.93,
+          "width": 240.70,
+          "x": 1039.30,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e02b5a90c5b637692401\",\"layouts\":[{\"id\":0,\"position\":{\"height\":720.3915171288744,\"width\":240.1305057096248,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"basicShape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"line\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#008531'\"}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"7D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9b1eaba07b0cce82056e\"}",
+          "filters": "[]",
+          "height": 720.39,
+          "width": 240.13,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Accessible_Defra_Theme8246045597209863.json"
+}

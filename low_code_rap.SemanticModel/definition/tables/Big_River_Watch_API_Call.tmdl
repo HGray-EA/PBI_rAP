@@ -1,0 +1,591 @@
+table Big_River_Watch_API_Call
+	lineageTag: 33a459f6-5c1f-494e-98d0-b79105da855f
+
+	column OBJECTID
+		dataType: string
+		lineageTag: c185f5d9-155c-411a-9b29-20686fa8cc5b
+		summarizeBy: none
+		sourceColumn: OBJECTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column sourceID
+		dataType: string
+		lineageTag: 4336f223-6c20-4703-bd23-14e9d3d6c74c
+		summarizeBy: none
+		sourceColumn: sourceID
+
+		annotation SummarizationSetBy = Automatic
+
+	column languageApp
+		dataType: string
+		lineageTag: 0da50a6a-e75d-4999-b590-1e105e7a50cc
+		summarizeBy: none
+		sourceColumn: languageApp
+
+		annotation SummarizationSetBy = Automatic
+
+	column languageResponse
+		dataType: string
+		lineageTag: fef70fd5-7196-45ec-b5e3-33b9551cc6d5
+		summarizeBy: none
+		sourceColumn: languageResponse
+
+		annotation SummarizationSetBy = Automatic
+
+	column surveyDate
+		dataType: string
+		lineageTag: 75411797-9537-430d-a83f-e58f6e145e78
+		summarizeBy: none
+		sourceColumn: surveyDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column experience
+		dataType: string
+		lineageTag: 921ada2e-21f9-4b81-8b52-d2e62f8c4a88
+		summarizeBy: none
+		sourceColumn: experience
+
+		annotation SummarizationSetBy = Automatic
+
+	column surveyors
+		dataType: string
+		lineageTag: 7bfe7d08-367e-4327-8517-955cd0ddeed9
+		summarizeBy: none
+		sourceColumn: surveyors
+
+		annotation SummarizationSetBy = Automatic
+
+	column rain
+		dataType: string
+		lineageTag: 2e5c0f00-4714-4f85-a0df-a9c8f6524ef7
+		summarizeBy: none
+		sourceColumn: rain
+
+		annotation SummarizationSetBy = Automatic
+
+	column flow
+		dataType: string
+		lineageTag: a57bfebd-e23c-48c3-a142-f1ee3e3753aa
+		summarizeBy: none
+		sourceColumn: flow
+
+		annotation SummarizationSetBy = Automatic
+
+	column visits
+		dataType: string
+		lineageTag: 47ed10fd-8d57-442d-8820-1d77e442e571
+		summarizeBy: none
+		sourceColumn: visits
+
+		annotation SummarizationSetBy = Automatic
+
+	column health
+		dataType: string
+		lineageTag: 907ccc30-9868-498a-b171-8a6066a70748
+		summarizeBy: none
+		sourceColumn: health
+
+		annotation SummarizationSetBy = Automatic
+
+	column feeling
+		dataType: string
+		lineageTag: b5d1e34d-cde3-4c2a-b28f-39f2cd06e603
+		summarizeBy: none
+		sourceColumn: feeling
+
+		annotation SummarizationSetBy = Automatic
+
+	column naturalness
+		dataType: string
+		lineageTag: a4c861ba-dca5-471e-8603-8e880b1f7374
+		summarizeBy: none
+		sourceColumn: naturalness
+
+		annotation SummarizationSetBy = Automatic
+
+	column barriers
+		dataType: string
+		lineageTag: 7ce93612-955d-40e0-a4e8-7e3632bbfcd9
+		summarizeBy: none
+		sourceColumn: barriers
+
+		annotation SummarizationSetBy = Automatic
+
+	column barriers_natural
+		dataType: string
+		lineageTag: 66272cd2-916e-47c1-81d3-0c852320aff8
+		summarizeBy: none
+		sourceColumn: barriers_natural
+
+		annotation SummarizationSetBy = Automatic
+
+	column barriers_artificial
+		dataType: string
+		lineageTag: f73dbcb6-416a-4fbd-b757-d6a58a9d84df
+		summarizeBy: none
+		sourceColumn: barriers_artificial
+
+		annotation SummarizationSetBy = Automatic
+
+	column barriers_unknown
+		dataType: string
+		lineageTag: 325f3645-08ec-48ec-8221-47f7c59e3006
+		summarizeBy: none
+		sourceColumn: barriers_unknown
+
+		annotation SummarizationSetBy = Automatic
+
+	column barriers_none
+		dataType: string
+		lineageTag: ca61e968-bb74-4d98-b3d4-0e007b876887
+		summarizeBy: none
+		sourceColumn: barriers_none
+
+		annotation SummarizationSetBy = Automatic
+
+	column banks
+		dataType: string
+		lineageTag: e6c859b4-591a-4449-8bbd-2b619eabfa48
+		summarizeBy: none
+		sourceColumn: banks
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife
+		dataType: string
+		lineageTag: 7b3da333-eb07-4dd9-b4c3-7ee5ab08f647
+		summarizeBy: none
+		sourceColumn: wildlife
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_specify
+		dataType: string
+		lineageTag: 494fbc7f-dca4-4c14-a0ba-18bb06e13a64
+		summarizeBy: none
+		sourceColumn: wildlife_specify
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_beaver
+		dataType: string
+		lineageTag: 35685461-d271-42a0-8849-d56b763a8b7c
+		summarizeBy: none
+		sourceColumn: wildlife_beaver
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_coot
+		dataType: string
+		lineageTag: 97151955-d421-47d2-8b87-4a68a660bfeb
+		summarizeBy: none
+		sourceColumn: wildlife_coot
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_dipper
+		dataType: string
+		lineageTag: dafb5d2f-385f-44ec-9b35-6c84782d8d37
+		summarizeBy: none
+		sourceColumn: wildlife_dipper
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_dragonflies
+		dataType: string
+		lineageTag: d63d0868-737b-4a2f-ae03-c7f4f655488b
+		summarizeBy: none
+		sourceColumn: wildlife_dragonflies
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_duck
+		dataType: string
+		lineageTag: d27e1a73-b1ad-48d0-8cba-370edf4dc39f
+		summarizeBy: none
+		sourceColumn: wildlife_duck
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_fish
+		dataType: string
+		lineageTag: 92a6293f-a2b5-4b07-95be-04df7cb9ba14
+		summarizeBy: none
+		sourceColumn: wildlife_fish
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_greyWagtail
+		dataType: string
+		lineageTag: ca3853f7-9007-40ce-ac69-9df89a4146c3
+		summarizeBy: none
+		sourceColumn: wildlife_greyWagtail
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_heron
+		dataType: string
+		lineageTag: 6141a3b5-414c-4e6c-b19b-60cf43c106a4
+		summarizeBy: none
+		sourceColumn: wildlife_heron
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_kingfisher
+		dataType: string
+		lineageTag: d8612759-8a1a-47f7-a68e-ffc5e5c0d5ab
+		summarizeBy: none
+		sourceColumn: wildlife_kingfisher
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_riverflies
+		dataType: string
+		lineageTag: 2892d410-fa67-43c8-8783-e70afd563180
+		summarizeBy: none
+		sourceColumn: wildlife_riverflies
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_moorhen
+		dataType: string
+		lineageTag: 596bbfd8-f695-43b6-8283-195cdfa1a9b0
+		summarizeBy: none
+		sourceColumn: wildlife_moorhen
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_otter
+		dataType: string
+		lineageTag: 9c1ba922-499f-40b3-99b4-7ff829e39533
+		summarizeBy: none
+		sourceColumn: wildlife_otter
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_rat
+		dataType: string
+		lineageTag: 85bff8c7-0264-4421-8494-b6eb481f0e16
+		summarizeBy: none
+		sourceColumn: wildlife_rat
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_swan
+		dataType: string
+		lineageTag: 1ba708b5-8e2c-495f-910a-2773df27f861
+		summarizeBy: none
+		sourceColumn: wildlife_swan
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_other
+		dataType: string
+		lineageTag: f8f5cdbb-d2db-4b4c-9736-ab13363d6e6c
+		summarizeBy: none
+		sourceColumn: wildlife_other
+
+		annotation SummarizationSetBy = Automatic
+
+	column wildlife_none
+		dataType: string
+		lineageTag: c9bfddcc-62be-42f9-8186-db4b79d28eda
+		summarizeBy: none
+		sourceColumn: wildlife_none
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants
+		dataType: string
+		lineageTag: 7b3c29a7-dc3f-4afd-b843-04fcf5f7e4f1
+		summarizeBy: none
+		sourceColumn: plants
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_submerged
+		dataType: string
+		lineageTag: f6be727a-bab4-4dcd-8fd4-db37e98affcc
+		summarizeBy: none
+		sourceColumn: plants_submerged
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_emergent
+		dataType: string
+		lineageTag: c8903732-6d58-4b84-b28a-d4061eb2e1ef
+		summarizeBy: none
+		sourceColumn: plants_emergent
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_floating
+		dataType: string
+		lineageTag: e1cea009-2a26-411c-87df-0c6b8ff4687b
+		summarizeBy: none
+		sourceColumn: plants_floating
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_bankside
+		dataType: string
+		lineageTag: e8ae08e7-4f5f-4042-9794-c0fa8afdf74a
+		summarizeBy: none
+		sourceColumn: plants_bankside
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_algae
+		dataType: string
+		lineageTag: ca7d7b4c-5286-4d9a-886e-542894e8038b
+		summarizeBy: none
+		sourceColumn: plants_algae
+
+		annotation SummarizationSetBy = Automatic
+
+	column plants_none
+		dataType: string
+		lineageTag: 38687b31-c48b-404c-a9d5-96029c4b1d30
+		summarizeBy: none
+		sourceColumn: plants_none
+
+		annotation SummarizationSetBy = Automatic
+
+	column turbidity
+		dataType: string
+		lineageTag: 19c1a3bc-d7bb-44b4-8a5c-b825cb0089fc
+		summarizeBy: none
+		sourceColumn: turbidity
+
+		annotation SummarizationSetBy = Automatic
+
+	column odour
+		dataType: string
+		lineageTag: e4d2232d-763e-471c-badd-fd6f7bdb1df7
+		summarizeBy: none
+		sourceColumn: odour
+
+		annotation SummarizationSetBy = Automatic
+
+	column litter
+		dataType: string
+		lineageTag: e929729b-d413-45ae-9d9b-159573118a67
+		summarizeBy: none
+		sourceColumn: litter
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution
+		dataType: string
+		lineageTag: a3b8e789-cf90-4140-8637-d29bf0b6688a
+		summarizeBy: none
+		sourceColumn: pollution
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_algal
+		dataType: string
+		lineageTag: 0efb1417-a911-4139-a28e-2f3b5dfb9e2e
+		summarizeBy: none
+		sourceColumn: pollution_algal
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_livestock
+		dataType: string
+		lineageTag: 0f44c060-5adc-4d3d-b109-bb3769e0d83e
+		summarizeBy: none
+		sourceColumn: pollution_livestock
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_mineWater
+		dataType: string
+		lineageTag: b295d60c-baed-4cff-bc0c-f1fdcf9d8155
+		summarizeBy: none
+		sourceColumn: pollution_mineWater
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_roadRunoff
+		dataType: string
+		lineageTag: 093ee951-2ff1-42b2-8cf1-1ea1ef169a45
+		summarizeBy: none
+		sourceColumn: pollution_roadRunoff
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_sewage
+		dataType: string
+		lineageTag: 5bd873d7-e05c-42c8-982d-321232c5c904
+		summarizeBy: none
+		sourceColumn: pollution_sewage
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_sewageFungus
+		dataType: string
+		lineageTag: d7280d5d-51ad-4e4f-943d-732b61bc68d6
+		summarizeBy: none
+		sourceColumn: pollution_sewageFungus
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_silt
+		dataType: string
+		lineageTag: 4adfa43f-4b3b-4c3d-8ad9-63f3109c0dc8
+		summarizeBy: none
+		sourceColumn: pollution_silt
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_other
+		dataType: string
+		lineageTag: cd779741-668b-4c09-8360-1bff633b03cd
+		summarizeBy: none
+		sourceColumn: pollution_other
+
+		annotation SummarizationSetBy = Automatic
+
+	column pollution_none
+		dataType: string
+		lineageTag: b5852fd3-141e-4daa-88ae-0ec5aafd4497
+		summarizeBy: none
+		sourceColumn: pollution_none
+
+		annotation SummarizationSetBy = Automatic
+
+	column goodThings
+		dataType: string
+		lineageTag: 028df3a9-b2f6-4d74-a7da-96a43bd46782
+		summarizeBy: none
+		sourceColumn: goodThings
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: string
+		lineageTag: 4f22e8df-cb8d-4d7c-bcf4-fac61a9d3f02
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column longitude
+		dataType: string
+		lineageTag: 875270b5-ac74-41d3-bf17-7065f62abc94
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column source
+		dataType: string
+		lineageTag: 98d3e0bb-8ffd-47ca-9f18-891e416b11ba
+		summarizeBy: none
+		sourceColumn: source
+
+		annotation SummarizationSetBy = Automatic
+
+	column riversTrust
+		dataType: string
+		lineageTag: a27228f3-2b6f-44f2-834b-6ad3e980621e
+		summarizeBy: none
+		sourceColumn: riversTrust
+
+		annotation SummarizationSetBy = Automatic
+
+	column cabaCatchment
+		dataType: string
+		lineageTag: 8a99f3c0-425e-4300-a017-bd6215331e71
+		summarizeBy: none
+		sourceColumn: cabaCatchment
+
+		annotation SummarizationSetBy = Automatic
+
+	column wfdWaterbody
+		dataType: string
+		lineageTag: 222552a6-b8a6-41d5-8ce6-f4796e5cf64d
+		summarizeBy: none
+		sourceColumn: wfdWaterbody
+
+		annotation SummarizationSetBy = Automatic
+
+	column riverBasin
+		dataType: string
+		lineageTag: 77f0293b-2e55-4830-b66a-1c5bfb55b6c6
+		summarizeBy: none
+		sourceColumn: riverBasin
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: d12ae4d5-f414-43ff-bb2d-7a863d8a4917
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column sharingLevel
+		dataType: string
+		lineageTag: acbdb336-48a6-47cb-9e5d-5bb581cf2215
+		summarizeBy: none
+		sourceColumn: sharingLevel
+
+		annotation SummarizationSetBy = Automatic
+
+	column GlobalID
+		dataType: string
+		lineageTag: 4896016d-b607-4c03-80cc-4a8e0ac56704
+		summarizeBy: none
+		sourceColumn: GlobalID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CreationDate
+		dataType: string
+		lineageTag: 79031441-423c-4d7f-9a10-69f476c6ad91
+		summarizeBy: none
+		sourceColumn: CreationDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Creator
+		dataType: string
+		lineageTag: e4a8837b-cdc8-4ab3-8d43-67659fc17966
+		summarizeBy: none
+		sourceColumn: Creator
+
+		annotation SummarizationSetBy = Automatic
+
+	column EditDate
+		dataType: string
+		lineageTag: 48c2cb53-b266-4ed7-a270-bc4965c10cb2
+		summarizeBy: none
+		sourceColumn: EditDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Editor
+		dataType: string
+		lineageTag: 9057d401-f41c-4ba8-90be-9c665c2c15e5
+		summarizeBy: none
+		sourceColumn: Editor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Big_River_Watch_API_Call = m
+		mode: import
+		source =
+				let
+				    Source = PowerPlatform.Dataflows(null),
+				    Workspaces = Source{[Id="Workspaces"]}[Data],
+				    #"099abd27-a3a0-40c6-83a1-9163e1b1a4fc" = Workspaces{[workspaceId="099abd27-a3a0-40c6-83a1-9163e1b1a4fc"]}[Data],
+				    #"c7432e27-5d7f-4192-9efc-f24fcb1dc340" = #"099abd27-a3a0-40c6-83a1-9163e1b1a4fc"{[dataflowId="c7432e27-5d7f-4192-9efc-f24fcb1dc340"]}[Data],
+				    Big_River_Watch_API_Call_ = #"c7432e27-5d7f-4192-9efc-f24fcb1dc340"{[entity="Big_River_Watch_API_Call",version=""]}[Data]
+				in
+				    Big_River_Watch_API_Call_
+
